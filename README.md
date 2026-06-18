@@ -51,9 +51,6 @@ game rule does not.
 - **ViaVersion** (used to detect the real client protocol version).
 - **PacketEvents** *or* **ProtocolLib** (for sending the packet).
 
-All three are soft dependencies; the plugin disables itself with a clear log
-message if no packet backend is found, and warns if ViaVersion is missing.
-
 ## Installation
 
 1. Drop `ReducedDebugBackport-1.0.jar` into `plugins/` next to ViaVersion and
